@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header class="section-link1">
+    <nav>
+        <a href="index.html" class="logo">
+            <img src="img/logo.svg" alt="logo">
+        </a>
+        <ul class="menu">
+            <li><a data-goto=".section-link1" href="#">Home</a></li>
+            <li><a data-goto=".section-link2" href="#">Hotels</a></li>
+            <li><a data-goto=".section-link2" href="#">Restaurants</a></li>
+            <li><a data-goto=".section-link3" href="#">Tours</a></li>
+            <li><a data-goto=".section-link4" href="#">Destinations</a></li>
+            <li><a data-goto=".section-link5" href="#">Activities</a></li>
+            <li><a data-goto=".section-link6" href="#">Contact</a></li>
+        </ul>
+        <div class="user">
+            <p>
+                Holla,<br>
+                <span>Ales Nesetril</span>
+            </p>
+            <div>
+                <img src="img/user.png" alt="user">
+            </div>            
+        </div>
+        <div class="btn-menu">
+            <div class="line"></div>
+        </div>
+    </nav>
+    <div class="header-info">
+        <h1>Discover the most engaging places</h1>
+        <button>
+            <i class="fa-solid fa-globe"></i>
+            Discover on 3D Globe
+        </button>
+    </div>
+    <div class="search-bar">
+        <form>
+            <div class="location">
+                <label for="loc">Location</label>
+                <input type="text" id="loc" placeholder="Explore nearby destinations">
+            </div>
+            <div class="activity">
+                <label for="act">Activity</label>
+                <input type="text" id="act" placeholder="All Activities">
+            </div>
+            <div class="when">
+                <label for="dt">When</label>
+                <input type="text" id="dt" placeholder="Choose a Date">
+            </div>
+            <div class="guests">
+                <label for="gues">Guests</label>
+                <input type="text" id="gues" placeholder="1 guest">
+            </div>
+            <button>
+                <img src="img/search.svg" alt="search">
+            </button>
+        </form>
+    </div>
+</header>
+<main>
+    <div class="scrollUp">
+        <i class="fa-regular fa-circle-up"></i>
+    </div>
+    <section class="dest section-link4">
+        <h2>Popular Destinations</h2>
+        <div class="dest_blocks">
+            <div class="dest-block">
+                <img src="img/Big Sur.png" alt="dest1">
+                <p>Big Sur</p>
+                <span>California, USA</span>
+            </div>
+            <div class="dest-block">
+                <img src="img/Prescott.png" alt="dest2">
+                <p>Prescott</p>
+                <span>Arizona, USA</span>
+            </div>
+            <div class="dest-block">
+                <img src="img/Fort Mayers.png" alt="dest3">
+                <p>Fort Mayers</p>
+                <span>Florida, USA</span>
+            </div>
+            <div class="dest-block">
+                <img src="img/Tucson.png" alt="dest4">
+                <p>Tucson</p>
+                <span>Arizona, USA</span>
+            </div>
+            <div class="dest-block">
+                <img src="img/St. Joseph.png" alt="dest5">
+                <p>St. Joseph</p>
+                <span>Michigan, USA</span>
+            </div>
+            <div class="dest-block">
+                <img src="img/Madrid.png" alt="dest6">
+                <p>Madrid</p>
+                <span>Spain</span>
+            </div>
+        </div>
+    </section>
+    <section class="hotels section-link2">
+        <div>
+            <h2>Hotels and Restaurants</h2>
+            <a href="#">
+                <span>View all</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="hotels_blocks">
+            <div class="hotel-block">
+                <img src="img/hotres1.png" alt="hot1">
+                <p>Monastero Santa Rosa Hotel & Spa</p>
+                <div class="bottom-info">
+                    <span>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Salerno, Italy
+                    </span>
+                    <div class="stars">
+                        <p><i class="fa-solid fa-star"></i></p>
+                        <p><i class="fa-solid fa-star"></i></p>
+                        <p><i class="fa-solid fa-star"></i></p>
+                        <p><i class="fa-solid fa-star"></i></p>
+                        <p><i class="fa-solid fa-star"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-block">
+                <img src="img/hotres2.png" alt="hot2">
+                <p>Grand Hotel Tremezzo</p>
+                <div class="bottom-info">
+                    <span>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Lake Como, Italy
+                    </span>
+                    <div class="stars">
+                        <p><i class="fa-solid fa-star"></i></p>
+                        <p><i class="fa-solid fa-star"></i></p>
+                        <p><i class="fa-solid fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-block">
+                <img src="img/hotres3.png" alt="hot3">
+                <p>The Oberoi Udaivilas, Udaipur</p>
+                <div class="bottom-info">
+                    <span>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Udaipur, India
+                    </span>
+                    <div class="stars">
+                        <p><i class="fa-solid fa-star"></i></p>
+                        <p><i class="fa-solid fa-star"></i></p>
+                        <p><i class="fa-solid fa-star"></i></p>
+                        <p><i class="fa-solid fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-block">
+                <img src="img/hotres4.png" alt="hot4">
+                <p>AKA Beverly Hills</p>
+                <div class="bottom-info">
+                    <span>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Los Angeles, United States
+                    </span>
+                    <div class="stars">
+                        <p><i class="fa-solid fa-star"></i></p>
+                        <p><i class="fa-solid fa-star"></i></p>
+                        <p><i class="fa-solid fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                        <p><i class="fa-regular fa-star"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="travel section-link3">
+        <div>
+            <h2>Travel Tips and Advice</h2>
+            <a href="#">
+                <span>View all</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="travel_blocks">
+            <div class="travel-block">
+                <img src="img/tipad1.png" alt="travel1">
+                <div class="travel-block-info">
+                    <div class="travel-block-info-top">
+                        <h3>East Village Ice Cream Crawl</h3>
+                    <p>
+                        We will stop at five different world-class ice cream shops on this 1.5 mile 1.5 hour tour. At each ice cream store we'll explore the story behind the business and see what makes the ice cream unique as you savor every…
+                    </p>
+                    </div>
+                    <div class="travel-block-info-bottom">
+                        <p>
+                            <img src="img/today.svg" alt="today">
+                            Today
+                        </p>
+                        <p>
+                            <img src="img/user.svg" alt="user">
+                            Maria Philips
+                        </p>
+                        <p>
+                            <img src="img/comment.svg" alt="comment">
+                            2
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="travel-block">
+                <img src="img/tipad2.png" alt="travel2">
+                <div class="travel-block-info">
+                    <div class="travel-block-info-top">
+                        <h3>Brooklyn Bridge cinematic photo walk</h3>
+                <p>
+                    This experience takes place at the Brooklyn Bridge Park and Brooklyn Bridge, but I’m always open to capture clients at different locations upon request for an additional charge. 
+                </p>
+                    </div>
+                    <div class="travel-block-info-bottom">
+                        <p>
+                            <img src="img/today.svg" alt="today">
+                            Today
+                        </p>
+                        <p>
+                            <img src="img/user.svg" alt="user">
+                            James Calzoni
+                        </p>
+                        <p>
+                            <img src="img/comment.svg" alt="comment">
+                            17
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="activites section-link5">
+        <div>
+            <h2>Activites</h2>
+            <a href="#">
+                <span>View all</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="activity_blocks">
+            <div class="activity-block">
+                <img src="img/activ1.png" alt="activ1">
+                <p>Sailing</p>
+            </div>
+            <div class="activity-block">
+                <img src="img/activ2.png" alt="activ2">
+                <p>Climbing</p>
+            </div>
+            <div class="activity-block">
+                <img src="img/activ3.png" alt="activ3">
+                <p>Skiing</p>
+            </div>
+            <div class="activity-block">
+                <img src="img/activ4.png" alt="activ4">
+                <p>Hiking</p>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="about_block">
+            <h2>About Us</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a sapien justo. Nulla facilisis tristique imperdiet. Nullam a placerat odio. Sed in ex augue. Aliquam porta consectetur lorem sit amet ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+            </p>
+            <div class="read-more">
+                <a href="#">
+                    <span>Read more</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>            
+        </div>
+        <div class="div-img">
+            <img src="img/about.png" alt="about">
+        </div>
+        
+    </section>
+</main>
+<footer class="section-link6">
+    <div class="wrapper">
+        <div class="footer-socials">
+            <a href="#"><img src="img/logo copy.svg" alt="logo"></a>
+            <p>
+                We always make our customers happy by providing<br> as many choises as possible
+            </p>
+            <ul>
+                <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://x.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-info">
+            <div>
+                <h3>About</h3>
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Menu</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="">Why 2rism</a></li>
+                    <li><a href="">Partner With Us</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="">Account</a></li>
+                    <li><a href="">Support Center</a></li>
+                    <li><a href="">Feedback</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-subscribe">
+            <h3>Subscribe on our destination review newsletters</h3>
+            <form>
+                <div class="inp">
+                    <label for="em_txt">Your Email</label>
+                    <input type="text" placeholder="johndoe@gmail.com" id="em_txt">
+                </div>                
+                <button>
+                    <img src="img/white_arrow.svg" alt="white_arrow">
+                </button>
+            </form>
+        </div>
+    </div>
+</footer> 
+<script src="js/script.js"></script>
+</body>
+</html>

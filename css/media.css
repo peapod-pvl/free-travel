@@ -1,0 +1,68 @@
+@media (max-width: 1199px){
+    header nav{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    header nav .menu{
+        order: 3;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .header-info h1{
+        font-size: 36px;
+    }
+}
+@media (max-width: 999px){
+    .hotels h2,
+    .travel h2,
+    .activites h2,
+    .dest h2{
+        font-size: 24px;
+    }
+    header{
+        height: auto;
+    }
+    nav .btn-menu.x-mark .line{
+        height: 0;
+    }
+    nav .btn-menu.x-mark::before{
+        top: 50%;
+        transform: rotate(45deg);
+    }
+    nav .btn-menu.x-mark::after{
+        bottom: 50%;
+        transform: rotate(-45deg);
+    }
+    header nav .menu{
+        position: absolute;
+        top: 81px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 0;/*calc(100% - 81px);*/
+        overflow: hidden;
+        background-color: rgba(0,0,0,0.9);
+        z-index: 10;
+        margin: 0;
+        font-size: 20px;
+        transition: all 0.4s ease;
+    }
+    header nav .menu.open{
+        height: calc(100% - 81px);
+    }
+    nav .btn-menu{
+        display: block;
+    }
+    .search-bar{
+        width: 90%;
+    }
+    .search-bar form{
+        flex-direction: column;
+        gap: 8px;
+    }
+    .search-bar form div{
+       border-bottom: 2px solid var(--clr-stars);
+    }
+}
